@@ -2,7 +2,7 @@
 //  120802.swift
 //
 //  Created by 김유빈 on 2023/02/28.
-//
+//  두 수의 합
 
 import Foundation
 
