@@ -3,7 +3,7 @@
 
 |번호|문제 번호|문제 이름|<img src="https://img.shields.io/badge/Python-3766AB?style=flat-square&logo=Python&logoColor=white"/></a> |<img src="https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=Swift&logoColor=white"/></a>|
 |:-----:|:-----:|:-----:|:-----:|:-----:|
-|1|12947|하샤드 수|✅||
+|1|12947|하샤드 수|✅|✅|
 |2|120802|두 수의 합|✅|✅|
 |3|120804|두 수의 곱|✅|✅|
 |4|120815|피자 나눠 먹기(2)|✅||
