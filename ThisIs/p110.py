@@ -1,14 +1,17 @@
 # p.110 상하좌우
 
-# 1.
+# 1. moves 길이만큼 반복문 돌리기
+# 2. 이동 방향에 맞게 x좌표와 y좌표 조정하기
+# 3. 이동했을 때 x, y좌표가 칸을 벗어나면 뛰어넘기
 
-def solution(n, move):
+
+def solution(n, moves):
     x, y = 1, 1
     
     dx = [0, 0, -1, 1]
     dy = [-1, 1, 0, 0]
 
-    for m in move:
+    for m in moves:
         if m == 'L':
             if x + dx[0] < 1 or y + dy[0] < 1:
                 continue
@@ -35,6 +38,8 @@ def solution(n, move):
         
     return x, y
 
+
+# 처음 작성한 solution 코드가 깔끔하지 못한 것 같아서 수정한 버전
 def solution2(n, moves):
     x, y = 1, 1
     
