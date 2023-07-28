@@ -11,7 +11,7 @@ def solution(n, k):
         if n == 1:
             break
 
-        if n % k == 0:
+        if n >= k and n % k == 0:
             n //= k
 
         else:
@@ -23,6 +23,8 @@ def solution(n, k):
 
 def test_sample():
     assert solution(25, 5) == 2
+    assert solution(17, 4) == 3
+    assert solution(25, 3) == 6
 
 
 test_sample()
